@@ -1,0 +1,1493 @@
+{
+  pos: 0,
+  end: 2087,
+  flags: 0,
+  modifierFlagsCache: 0,
+  transformFlags: 2237827,
+  parent: undefined,
+  kind: 305,
+  statements: [
+    <ref *2> NodeObject {
+      pos: 0,
+      end: 56,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *3> NodeObject {
+        pos: 6,
+        end: 31,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *2],
+        kind: 267,
+        isTypeOnly: false,
+        name: undefined,
+        namedBindings: <ref *4> NodeObject {
+          pos: 6,
+          end: 31,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *3],
+          kind: 269,
+          elements: [
+            <ref *5> NodeObject {
+              pos: 8,
+              end: 12,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *4],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 8,
+                end: 12,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *5],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'Box',
+                [text]: [Getter]
+              }
+            },
+            <ref *6> NodeObject {
+              pos: 13,
+              end: 24,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *4],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 13,
+                end: 24,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *6],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'makeStyles',
+                [text]: [Getter]
+              }
+            },
+            <ref *7> NodeObject {
+              pos: 25,
+              end: 29,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *4],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 25,
+                end: 29,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *7],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'Tab',
+                [text]: [Getter]
+              }
+            },
+            [length]: 3,
+            pos: 8,
+            end: 29,
+            hasTrailingComma: false,
+            transformFlags: 0
+          ]
+        }
+      },
+      moduleSpecifier: TokenObject {
+        pos: 36,
+        end: 56,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *2],
+        kind: 10,
+        text: '@material-ui/core',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *8> NodeObject {
+      pos: 56,
+      end: 121,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *9> NodeObject {
+        pos: 63,
+        end: 97,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *8],
+        kind: 267,
+        isTypeOnly: false,
+        name: undefined,
+        namedBindings: <ref *10> NodeObject {
+          pos: 63,
+          end: 97,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *9],
+          kind: 269,
+          elements: [
+            <ref *11> NodeObject {
+              pos: 65,
+              end: 76,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *10],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 65,
+                end: 76,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *11],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'TabContext',
+                [text]: [Getter]
+              }
+            },
+            <ref *12> NodeObject {
+              pos: 77,
+              end: 85,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *10],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 77,
+                end: 85,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *12],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'TabList',
+                [text]: [Getter]
+              }
+            },
+            <ref *13> NodeObject {
+              pos: 86,
+              end: 95,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *10],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 86,
+                end: 95,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *13],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'TabPanel',
+                [text]: [Getter]
+              }
+            },
+            [length]: 3,
+            pos: 65,
+            end: 95,
+            hasTrailingComma: false,
+            transformFlags: 0
+          ]
+        }
+      },
+      moduleSpecifier: TokenObject {
+        pos: 102,
+        end: 121,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *8],
+        kind: 10,
+        text: '@material-ui/lab',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *14> NodeObject {
+      pos: 121,
+      end: 179,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *15> NodeObject {
+        pos: 128,
+        end: 166,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *14],
+        kind: 267,
+        isTypeOnly: false,
+        name: undefined,
+        namedBindings: <ref *16> NodeObject {
+          pos: 128,
+          end: 166,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *15],
+          kind: 269,
+          elements: [
+            <ref *17> NodeObject {
+              pos: 130,
+              end: 143,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *16],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 130,
+                end: 143,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *17],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'ReactElement',
+                [text]: [Getter]
+              }
+            },
+            <ref *18> NodeObject {
+              pos: 144,
+              end: 154,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *16],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 144,
+                end: 154,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *18],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'useEffect',
+                [text]: [Getter]
+              }
+            },
+            <ref *19> NodeObject {
+              pos: 155,
+              end: 164,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *16],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 155,
+                end: 164,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *19],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'useState',
+                [text]: [Getter]
+              }
+            },
+            [length]: 3,
+            pos: 130,
+            end: 164,
+            hasTrailingComma: false,
+            transformFlags: 0
+          ]
+        }
+      },
+      moduleSpecifier: TokenObject {
+        pos: 171,
+        end: 179,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *14],
+        kind: 10,
+        text: 'react',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *20> NodeObject {
+      pos: 179,
+      end: 221,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *21> NodeObject {
+        pos: 186,
+        end: 202,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *20],
+        kind: 267,
+        isTypeOnly: false,
+        name: undefined,
+        namedBindings: <ref *22> NodeObject {
+          pos: 186,
+          end: 202,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *21],
+          kind: 269,
+          elements: [
+            <ref *23> NodeObject {
+              pos: 188,
+              end: 200,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *22],
+              kind: 270,
+              isTypeOnly: false,
+              propertyName: undefined,
+              name: IdentifierObject {
+                pos: 188,
+                end: 200,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *23],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'useDispatch',
+                [text]: [Getter]
+              }
+            },
+            [length]: 1,
+            pos: 188,
+            end: 200,
+            hasTrailingComma: false,
+            transformFlags: 0
+          ]
+        }
+      },
+      moduleSpecifier: TokenObject {
+        pos: 207,
+        end: 221,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *20],
+        kind: 10,
+        text: 'react-redux',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *24> NodeObject {
+      pos: 221,
+      end: 255,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *25> NodeObject {
+        pos: 228,
+        end: 236,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *24],
+        kind: 267,
+        isTypeOnly: false,
+        name: IdentifierObject {
+          pos: 228,
+          end: 236,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *25],
+          kind: 79,
+          originalKeywordKind: undefined,
+          escapedText: 'actions',
+          [text]: [Getter]
+        },
+        namedBindings: undefined
+      },
+      moduleSpecifier: TokenObject {
+        pos: 241,
+        end: 255,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *24],
+        kind: 10,
+        text: 'src/actions',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *26> NodeObject {
+      pos: 255,
+      end: 305,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *27> NodeObject {
+        pos: 262,
+        end: 279,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *26],
+        kind: 267,
+        isTypeOnly: false,
+        name: IdentifierObject {
+          pos: 262,
+          end: 279,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *27],
+          kind: 79,
+          originalKeywordKind: undefined,
+          escapedText: 'ParticipantTable',
+          [text]: [Getter]
+        },
+        namedBindings: undefined
+      },
+      moduleSpecifier: TokenObject {
+        pos: 284,
+        end: 305,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *26],
+        kind: 10,
+        text: './ParticipantTable',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *28> NodeObject {
+      pos: 305,
+      end: 365,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *29> NodeObject {
+        pos: 312,
+        end: 334,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *28],
+        kind: 267,
+        isTypeOnly: false,
+        name: IdentifierObject {
+          pos: 312,
+          end: 334,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *29],
+          kind: 79,
+          originalKeywordKind: undefined,
+          escapedText: 'RecruiterCreationForm',
+          [text]: [Getter]
+        },
+        namedBindings: undefined
+      },
+      moduleSpecifier: TokenObject {
+        pos: 339,
+        end: 365,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *28],
+        kind: 10,
+        text: './RecruiterCreationForm',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *30> NodeObject {
+      pos: 365,
+      end: 421,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *31> NodeObject {
+        pos: 372,
+        end: 392,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *30],
+        kind: 267,
+        isTypeOnly: false,
+        name: IdentifierObject {
+          pos: 372,
+          end: 392,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *31],
+          kind: 79,
+          originalKeywordKind: undefined,
+          escapedText: 'SponsorCreationForm',
+          [text]: [Getter]
+        },
+        namedBindings: undefined
+      },
+      moduleSpecifier: TokenObject {
+        pos: 397,
+        end: 421,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *30],
+        kind: 10,
+        text: './SponsorCreationForm',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *32> NodeObject {
+      pos: 421,
+      end: 460,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *33> NodeObject {
+        pos: 428,
+        end: 441,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *32],
+        kind: 267,
+        isTypeOnly: false,
+        name: IdentifierObject {
+          pos: 428,
+          end: 441,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *33],
+          kind: 79,
+          originalKeywordKind: undefined,
+          escapedText: 'AnalyticsTab',
+          [text]: [Getter]
+        },
+        namedBindings: undefined
+      },
+      moduleSpecifier: TokenObject {
+        pos: 446,
+        end: 460,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *32],
+        kind: 10,
+        text: './Analytics',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *34> NodeObject {
+      pos: 460,
+      end: 520,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 266,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      importClause: <ref *35> NodeObject {
+        pos: 467,
+        end: 479,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *34],
+        kind: 267,
+        isTypeOnly: false,
+        name: IdentifierObject {
+          pos: 467,
+          end: 479,
+          flags: 0,
+          modifierFlagsCache: 0,
+          transformFlags: 0,
+          parent: [Circular *35],
+          kind: 79,
+          originalKeywordKind: undefined,
+          escapedText: 'FloatingDiv',
+          [text]: [Getter]
+        },
+        namedBindings: undefined
+      },
+      moduleSpecifier: TokenObject {
+        pos: 484,
+        end: 520,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *34],
+        kind: 10,
+        text: 'src/components/design/FloatingDiv',
+        singleQuote: undefined,
+        hasExtendedUnicodeEscape: false
+      },
+      assertClause: undefined
+    },
+    <ref *36> NodeObject {
+      pos: 520,
+      end: 674,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 2229248,
+      parent: [Circular *1],
+      kind: 237,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      declarationList: <ref *37> NodeObject {
+        pos: 520,
+        end: 674,
+        flags: 2,
+        modifierFlagsCache: 0,
+        transformFlags: 2229248,
+        parent: [Circular *36],
+        kind: 255,
+        declarations: [
+          <ref *38> NodeObject {
+            pos: 527,
+            end: 674,
+            flags: 0,
+            modifierFlagsCache: 0,
+            transformFlags: 1024,
+            parent: [Circular *37],
+            kind: 254,
+            decorators: undefined,
+            modifiers: undefined,
+            symbol: undefined,
+            localSymbol: undefined,
+            locals: undefined,
+            nextContainer: undefined,
+            name: IdentifierObject {
+              pos: 527,
+              end: 537,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *38],
+              kind: 79,
+              originalKeywordKind: undefined,
+              escapedText: 'useStyles',
+              [text]: [Getter]
+            },
+            initializer: <ref *39> NodeObject {
+              pos: 539,
+              end: 674,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 1024,
+              parent: [Circular *38],
+              kind: 208,
+              expression: IdentifierObject {
+                pos: 539,
+                end: 550,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *39],
+                kind: 79,
+                originalKeywordKind: undefined,
+                escapedText: 'makeStyles',
+                [text]: [Getter]
+              },
+              typeArguments: undefined,
+              arguments: [
+                <ref *40> NodeObject {
+                  pos: 551,
+                  end: 673,
+                  flags: 0,
+                  modifierFlagsCache: 0,
+                  transformFlags: 1024,
+                  parent: [Circular *39],
+                  kind: 214,
+                  decorators: undefined,
+                  modifiers: undefined,
+                  symbol: undefined,
+                  localSymbol: undefined,
+                  locals: undefined,
+                  nextContainer: undefined,
+                  name: undefined,
+                  typeParameters: undefined,
+                  parameters: [
+                    NodeObject {
+                      pos: 552,
+                      end: 557,
+                      flags: 0,
+                      modifierFlagsCache: 0,
+                      transformFlags: 0,
+                      parent: [Circular *40],
+                      kind: 164,
+                      decorators: undefined,
+                      modifiers: undefined,
+                      symbol: undefined,
+                      localSymbol: undefined,
+                      locals: undefined,
+                      nextContainer: undefined,
+                      name: [IdentifierObject],
+                      initializer: undefined,
+                      type: undefined,
+                      dotDotDotToken: undefined,
+                      questionToken: undefined
+                    },
+                    [length]: 1,
+                    pos: 552,
+                    end: 557,
+                    hasTrailingComma: false,
+                    transformFlags: 0
+                  ],
+                  type: undefined,
+                  body: <ref *41> NodeObject {
+                    pos: 561,
+                    end: 673,
+                    flags: 0,
+                    modifierFlagsCache: 0,
+                    transformFlags: 0,
+                    parent: [Circular *40],
+                    kind: 212,
+                    expression: NodeObject {
+                      pos: 563,
+                      end: 672,
+                      flags: 0,
+                      modifierFlagsCache: 0,
+                      transformFlags: 0,
+                      parent: [Circular *41],
+                      kind: 205,
+                      properties: [Array],
+                      multiLine: true
+                    }
+                  },
+                  equalsGreaterThanToken: TokenObject {
+                    pos: 558,
+                    end: 561,
+                    flags: 0,
+                    modifierFlagsCache: 0,
+                    transformFlags: 0,
+                    parent: [Circular *40],
+                    kind: 38
+                  }
+                },
+                [length]: 1,
+                pos: 551,
+                end: 673,
+                hasTrailingComma: false,
+                transformFlags: 1024
+              ]
+            },
+            type: undefined,
+            exclamationToken: undefined
+          },
+          [length]: 1,
+          pos: 527,
+          end: 674,
+          hasTrailingComma: false,
+          transformFlags: 1024
+        ]
+      }
+    },
+    <ref *42> NodeObject {
+      pos: 674,
+      end: 2058,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 2237827,
+      parent: [Circular *1],
+      kind: 237,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      declarationList: <ref *43> NodeObject {
+        pos: 674,
+        end: 2058,
+        flags: 2,
+        modifierFlagsCache: 0,
+        transformFlags: 2237827,
+        parent: [Circular *42],
+        kind: 255,
+        declarations: [
+          <ref *44> NodeObject {
+            pos: 681,
+            end: 2058,
+            flags: 0,
+            modifierFlagsCache: 0,
+            transformFlags: 9603,
+            parent: [Circular *43],
+            kind: 254,
+            decorators: undefined,
+            modifiers: undefined,
+            symbol: undefined,
+            localSymbol: undefined,
+            locals: undefined,
+            nextContainer: undefined,
+            name: IdentifierObject {
+              pos: 681,
+              end: 693,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *44],
+              kind: 79,
+              originalKeywordKind: undefined,
+              escapedText: 'AdminDialog',
+              [text]: [Getter]
+            },
+            initializer: <ref *45> NodeObject {
+              pos: 695,
+              end: 2058,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 2237827,
+              parent: [Circular *44],
+              kind: 214,
+              decorators: undefined,
+              modifiers: undefined,
+              symbol: undefined,
+              localSymbol: undefined,
+              locals: undefined,
+              nextContainer: undefined,
+              name: undefined,
+              typeParameters: undefined,
+              parameters: [
+                [length]: 0,
+                pos: 697,
+                end: 697,
+                hasTrailingComma: false,
+                transformFlags: 0
+              ],
+              type: <ref *46> NodeObject {
+                pos: 699,
+                end: 712,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 1,
+                parent: [Circular *45],
+                kind: 178,
+                typeName: IdentifierObject {
+                  pos: 699,
+                  end: 712,
+                  flags: 0,
+                  modifierFlagsCache: 0,
+                  transformFlags: 0,
+                  parent: [Circular *46],
+                  kind: 79,
+                  originalKeywordKind: undefined,
+                  escapedText: 'ReactElement',
+                  [text]: [Getter]
+                },
+                typeArguments: undefined
+              },
+              body: <ref *47> NodeObject {
+                pos: 715,
+                end: 2058,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 2237827,
+                parent: [Circular *45],
+                kind: 235,
+                statements: [
+                  <ref *48> NodeObject {
+                    pos: 717,
+                    end: 747,
+                    flags: 0,
+                    modifierFlagsCache: 0,
+                    transformFlags: 2229248,
+                    parent: [Circular *47],
+                    kind: 237,
+                    decorators: undefined,
+                    modifiers: undefined,
+                    symbol: undefined,
+                    localSymbol: undefined,
+                    locals: undefined,
+                    nextContainer: undefined,
+                    declarationList: NodeObject {
+                      pos: 717,
+                      end: 747,
+                      flags: 2,
+                      modifierFlagsCache: 0,
+                      transformFlags: 2229248,
+                      parent: [Circular *48],
+                      kind: 255,
+                      declarations: [Array]
+                    }
+                  },
+                  <ref *49> NodeObject {
+                    pos: 747,
+                    end: 780,
+                    flags: 0,
+                    modifierFlagsCache: 0,
+                    transformFlags: 2229248,
+                    parent: [Circular *47],
+                    kind: 237,
+                    decorators: undefined,
+                    modifiers: undefined,
+                    symbol: undefined,
+                    localSymbol: undefined,
+                    locals: undefined,
+                    nextContainer: undefined,
+                    declarationList: NodeObject {
+                      pos: 747,
+                      end: 780,
+                      flags: 2,
+                      modifierFlagsCache: 0,
+                      transformFlags: 2229248,
+                      parent: [Circular *49],
+                      kind: 255,
+                      declarations: [Array]
+                    }
+                  },
+                  <ref *50> NodeObject {
+                    pos: 780,
+                    end: 828,
+                    flags: 0,
+                    modifierFlagsCache: 0,
+                    transformFlags: 2229248,
+                    parent: [Circular *47],
+                    kind: 237,
+                    decorators: undefined,
+                    modifiers: undefined,
+                    symbol: undefined,
+                    localSymbol: undefined,
+                    locals: undefined,
+                    nextContainer: undefined,
+                    declarationList: NodeObject {
+                      pos: 780,
+                      end: 828,
+                      flags: 2,
+                      modifierFlagsCache: 0,
+                      transformFlags: 2491392,
+                      parent: [Circular *50],
+                      kind: 255,
+                      declarations: [Array]
+                    }
+                  },
+                  <ref *51> NodeObject {
+                    pos: 828,
+                    end: 1041,
+                    flags: 0,
+                    modifierFlagsCache: 0,
+                    transformFlags: 9600,
+                    parent: [Circular *47],
+                    kind: 238,
+                    expression: NodeObject {
+                      pos: 828,
+                      end: 1041,
+                      flags: 0,
+                      modifierFlagsCache: 0,
+                      transformFlags: 9600,
+                      parent: [Circular *51],
+                      kind: 208,
+                      expression: [IdentifierObject],
+                      typeArguments: undefined,
+                      arguments: [Array]
+                    }
+                  },
+                  <ref *52> NodeObject {
+                    pos: 1041,
+                    end: 2056,
+                    flags: 0,
+                    modifierFlagsCache: 0,
+                    transformFlags: 2098307,
+                    parent: [Circular *47],
+                    kind: 247,
+                    expression: NodeObject {
+                      pos: 1051,
+                      end: 2056,
+                      flags: 0,
+                      modifierFlagsCache: 0,
+                      transformFlags: 1027,
+                      parent: [Circular *52],
+                      kind: 212,
+                      expression: [NodeObject]
+                    }
+                  },
+                  [length]: 5,
+                  pos: 717,
+                  end: 2056,
+                  hasTrailingComma: false,
+                  transformFlags: 2237827
+                ],
+                multiLine: true
+              },
+              equalsGreaterThanToken: TokenObject {
+                pos: 712,
+                end: 715,
+                flags: 0,
+                modifierFlagsCache: 0,
+                transformFlags: 0,
+                parent: [Circular *45],
+                kind: 38
+              }
+            },
+            type: undefined,
+            exclamationToken: undefined
+          },
+          [length]: 1,
+          pos: 681,
+          end: 2058,
+          hasTrailingComma: false,
+          transformFlags: 9603
+        ]
+      }
+    },
+    <ref *53> NodeObject {
+      pos: 2058,
+      end: 2086,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *1],
+      kind: 271,
+      decorators: undefined,
+      modifiers: undefined,
+      symbol: undefined,
+      localSymbol: undefined,
+      locals: undefined,
+      nextContainer: undefined,
+      isExportEquals: undefined,
+      expression: IdentifierObject {
+        pos: 2074,
+        end: 2086,
+        flags: 32768,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *53],
+        kind: 79,
+        originalKeywordKind: undefined,
+        escapedText: 'AdminDialog',
+        [text]: [Getter]
+      }
+    },
+    [length]: 13,
+    pos: 0,
+    end: 2086,
+    hasTrailingComma: false,
+    transformFlags: 2237827
+  ],
+  endOfFileToken: TokenObject {
+    pos: 2086,
+    end: 2087,
+    flags: 0,
+    modifierFlagsCache: 0,
+    transformFlags: 0,
+    parent: [Circular *1],
+    kind: 1
+  },
+  fileName: 'input/AdminDialog.tsx',
+  text: 'import { Box, makeStyles, Tab } from "@material-ui/core"\n' +
+    'import { TabContext, TabList, TabPanel } from "@material-ui/lab"\n' +
+    'import { ReactElement, useEffect, useState } from "react"\n' +
+    'import { useDispatch } from "react-redux"\n' +
+    'import actions from "src/actions"\n' +
+    'import ParticipantTable from "./ParticipantTable"\n' +
+    'import RecruiterCreationForm from "./RecruiterCreationForm"\n' +
+    'import SponsorCreationForm from "./SponsorCreationForm"\n' +
+    'import AnalyticsTab from "./Analytics"\n' +
+    'import FloatingDiv from "src/components/design/FloatingDiv"\n' +
+    '\n' +
+    'const useStyles = makeStyles((theme) => ({\n' +
+    '  tabs: {\n' +
+    '    width: "100%",\n' +
+    '    justifyContent: "space-between"\n' +
+    '  },\n' +
+    '  tabPanel: {\n' +
+    '    width: "100%"\n' +
+    '  }\n' +
+    '}))\n' +
+    '\n' +
+    'const AdminDialog = (): ReactElement => {\n' +
+    '  const classes = useStyles()\n' +
+    '  const dispatch = useDispatch()\n' +
+    '  const [tabIndex, setTabIndex] = useState("0")\n' +
+    '\n' +
+    '  useEffect(() => {\n' +
+    '    const querySponsors = async () => {\n' +
+    '      try {\n' +
+    '        await dispatch(actions.sponsors.list())\n' +
+    '      } catch (err) {\n' +
+    '        console.error(err)\n' +
+    '      }\n' +
+    '    }\n' +
+    '    querySponsors()\n' +
+    '  }, [])\n' +
+    '\n' +
+    '  return (\n' +
+    '    <FloatingDiv>\n' +
+    '      <TabContext value={tabIndex}>\n' +
+    '        <Box>\n' +
+    '          <TabList\n' +
+    '            value={tabIndex}\n' +
+    '            onChange={(e, newIndex: string) => setTabIndex(newIndex)}\n' +
+    '            className={classes.tabs}\n' +
+    '            variant="scrollable"\n' +
+    '            centered\n' +
+    '          >\n' +
+    '            <Tab label="Participants" value="0" />\n' +
+    '            <Tab label="Recruiters" value="1" />\n' +
+    '            <Tab label="Sponsors" value="2" />\n' +
+    '            <Tab label="Analytics" value="3" />\n' +
+    '          </TabList>\n' +
+    '        </Box>\n' +
+    '        <TabPanel value="0" className={classes.tabPanel}>\n' +
+    '          <ParticipantTable />\n' +
+    '        </TabPanel>\n' +
+    '        <TabPanel value="1" className={classes.tabPanel}>\n' +
+    '          <RecruiterCreationForm />\n' +
+    '        </TabPanel>\n' +
+    '        <TabPanel value="2" className={classes.tabPanel}>\n' +
+    '          <SponsorCreationForm />\n' +
+    '        </TabPanel>\n' +
+    '        <TabPanel value="3" className={classes.tabPanel}>\n' +
+    '          <AnalyticsTab />\n' +
+    '        </TabPanel>\n' +
+    '      </TabContext>\n' +
+    '    </FloatingDiv>\n' +
+    '  )\n' +
+    '}\n' +
+    '\n' +
+    'export default AdminDialog\n',
+  languageVersion: 3,
+  languageVariant: 1,
+  scriptKind: 4,
+  isDeclarationFile: false,
+  hasNoDefaultLib: false,
+  bindDiagnostics: [ [length]: 0 ],
+  bindSuggestionDiagnostics: undefined,
+  externalModuleIndicator: <ref *2> NodeObject {
+    pos: 0,
+    end: 56,
+    flags: 0,
+    modifierFlagsCache: 0,
+    transformFlags: 0,
+    parent: [Circular *1],
+    kind: 266,
+    decorators: undefined,
+    modifiers: undefined,
+    symbol: undefined,
+    localSymbol: undefined,
+    locals: undefined,
+    nextContainer: undefined,
+    importClause: <ref *3> NodeObject {
+      pos: 6,
+      end: 31,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *2],
+      kind: 267,
+      isTypeOnly: false,
+      name: undefined,
+      namedBindings: <ref *4> NodeObject {
+        pos: 6,
+        end: 31,
+        flags: 0,
+        modifierFlagsCache: 0,
+        transformFlags: 0,
+        parent: [Circular *3],
+        kind: 269,
+        elements: [
+          <ref *5> NodeObject {
+            pos: 8,
+            end: 12,
+            flags: 0,
+            modifierFlagsCache: 0,
+            transformFlags: 0,
+            parent: [Circular *4],
+            kind: 270,
+            isTypeOnly: false,
+            propertyName: undefined,
+            name: IdentifierObject {
+              pos: 8,
+              end: 12,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *5],
+              kind: 79,
+              originalKeywordKind: undefined,
+              escapedText: 'Box',
+              [text]: [Getter]
+            }
+          },
+          <ref *6> NodeObject {
+            pos: 13,
+            end: 24,
+            flags: 0,
+            modifierFlagsCache: 0,
+            transformFlags: 0,
+            parent: [Circular *4],
+            kind: 270,
+            isTypeOnly: false,
+            propertyName: undefined,
+            name: IdentifierObject {
+              pos: 13,
+              end: 24,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *6],
+              kind: 79,
+              originalKeywordKind: undefined,
+              escapedText: 'makeStyles',
+              [text]: [Getter]
+            }
+          },
+          <ref *7> NodeObject {
+            pos: 25,
+            end: 29,
+            flags: 0,
+            modifierFlagsCache: 0,
+            transformFlags: 0,
+            parent: [Circular *4],
+            kind: 270,
+            isTypeOnly: false,
+            propertyName: undefined,
+            name: IdentifierObject {
+              pos: 25,
+              end: 29,
+              flags: 0,
+              modifierFlagsCache: 0,
+              transformFlags: 0,
+              parent: [Circular *7],
+              kind: 79,
+              originalKeywordKind: undefined,
+              escapedText: 'Tab',
+              [text]: [Getter]
+            }
+          },
+          [length]: 3,
+          pos: 8,
+          end: 29,
+          hasTrailingComma: false,
+          transformFlags: 0
+        ]
+      }
+    },
+    moduleSpecifier: TokenObject {
+      pos: 36,
+      end: 56,
+      flags: 0,
+      modifierFlagsCache: 0,
+      transformFlags: 0,
+      parent: [Circular *2],
+      kind: 10,
+      text: '@material-ui/core',
+      singleQuote: undefined,
+      hasExtendedUnicodeEscape: false
+    },
+    assertClause: undefined
+  },
+  setExternalModuleIndicator: <ref *54> [Function: setExternalModuleIndicator] {
+    [length]: 1,
+    [name]: 'setExternalModuleIndicator',
+    [prototype]: { [constructor]: [Circular *54] }
+  },
+  pragmas: Map(0) {},
+  checkJsDirective: undefined,
+  referencedFiles: [ [length]: 0 ],
+  typeReferenceDirectives: [ [length]: 0 ],
+  libReferenceDirectives: [ [length]: 0 ],
+  amdDependencies: [ [length]: 0 ],
+  commentDirectives: undefined,
+  nodeCount: 379,
+  identifierCount: 119,
+  identifiers: Map(53) {
+    'Box' => 'Box',
+    'makeStyles' => 'makeStyles',
+    'Tab' => 'Tab',
+    '@material-ui/core' => '@material-ui/core',
+    'TabContext' => 'TabContext',
+    'TabList' => 'TabList',
+    'TabPanel' => 'TabPanel',
+    '@material-ui/lab' => '@material-ui/lab',
+    'ReactElement' => 'ReactElement',
+    'useEffect' => 'useEffect',
+    'useState' => 'useState',
+    'react' => 'react',
+    'useDispatch' => 'useDispatch',
+    'react-redux' => 'react-redux',
+    'actions' => 'actions',
+    'src/actions' => 'src/actions',
+    'ParticipantTable' => 'ParticipantTable',
+    './ParticipantTable' => './ParticipantTable',
+    'RecruiterCreationForm' => 'RecruiterCreationForm',
+    './RecruiterCreationForm' => './RecruiterCreationForm',
+    'SponsorCreationForm' => 'SponsorCreationForm',
+    './SponsorCreationForm' => './SponsorCreationForm',
+    'AnalyticsTab' => 'AnalyticsTab',
+    './Analytics' => './Analytics',
+    'FloatingDiv' => 'FloatingDiv',
+    'src/components/design/FloatingDiv' => 'src/components/design/FloatingDiv',
+    'useStyles' => 'useStyles',
+    'theme' => 'theme',
+    'tabs' => 'tabs',
+    'width' => 'width',
+    '100%' => '100%',
+    'justifyContent' => 'justifyContent',
+    'space-between' => 'space-between',
+    'tabPanel' => 'tabPanel',
+    'AdminDialog' => 'AdminDialog',
+    'classes' => 'classes',
+    'dispatch' => 'dispatch',
+    'tabIndex' => 'tabIndex',
+    'setTabIndex' => 'setTabIndex',
+    'querySponsors' => 'querySponsors',
+    'sponsors' => 'sponsors',
+    'list' => 'list',
+    'err' => 'err',
+    'console' => 'console',
+    'error' => 'error',
+    'value' => 'value',
+    'onChange' => 'onChange',
+    'e' => 'e',
+    'newIndex' => 'newIndex',
+    'className' => 'className',
+    'variant' => 'variant',
+    'centered' => 'centered',
+    'label' => 'label'
+  },
+  parseDiagnostics: [ [length]: 0 ]
+}
