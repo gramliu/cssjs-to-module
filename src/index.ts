@@ -1,10 +1,12 @@
 import { Project, SourceFile } from "ts-morph";
 import extractStyles from "./transformations/extractStyles";
 import removeImports from "./transformations/removeImports";
+import removeStyles from "./transformations/removeStyles";
 
 function transformSource(sourceFile: SourceFile) {
+  const stylesheet = extractStyles(sourceFile);
   removeImports(sourceFile);
-  extractStyles(sourceFile);
+  removeStyles(sourceFile);
 }
 
 function main(fileNames: string[]) {

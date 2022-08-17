@@ -16,7 +16,7 @@ export default function removeImports(srcFile: SourceFile) {
     const makeStylesImport = namedCoreImports.find(
       (namedImport) => namedImport.getText() === TARGET_NAMED_IMPORT
     );
-    makeStylesImport.remove();
+    if (makeStylesImport != null) makeStylesImport.remove();
   }
 
   const styleMatch = (decl: ImportDeclaration) =>

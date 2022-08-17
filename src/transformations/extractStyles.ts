@@ -2,13 +2,13 @@ import { SourceFile, SyntaxKind } from "ts-morph";
 import { extractNestedNode, getLiteralChildValue } from "../utils/ast-utils";
 import { jsPropertyToCss } from "../utils/css-utils";
 
-type ClassStyle = Record<string, string | number>;
-type Stylesheet = Record<string, ClassStyle>;
+export type ClassStyle = Record<string, string | number>;
+export type Stylesheet = Record<string, ClassStyle>;
 
 /**
- * Remove useStyles declaration and extract styles to separate css file
+ * Extract the CSS-in-JSS stylesheet into a mapping
  */
-export default function extractStyles(srcFile: SourceFile) {
+export default function extractStyles(srcFile: SourceFile): Stylesheet {
   // Retrieve styles object literal
   const useStyles = srcFile.getVariableDeclaration("useStyles");
   const stylesLiteral = extractNestedNode(useStyles, [
@@ -41,8 +41,5 @@ export default function extractStyles(srcFile: SourceFile) {
     stylesheet[identifier] = classStyle;
   }
 
-  console.log(stylesheet);
-
-  // Remove style declaration
-  useStyles.remove();
+  return stylesheet;
 }
