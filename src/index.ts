@@ -1,12 +1,17 @@
 import { Project, SourceFile } from "ts-morph";
+import addModuleImport from "./transformations/addModuleImport";
 import extractStyles from "./transformations/extractStyles";
 import removeImports from "./transformations/removeImports";
 import removeStyles from "./transformations/removeStyles";
+import replaceClasses from "./transformations/replaceClasses";
+import { saveOutput } from "./utils/io";
 
 function transformSource(sourceFile: SourceFile) {
-  const stylesheet = extractStyles(sourceFile);
   removeImports(sourceFile);
   removeStyles(sourceFile);
+
+  replaceClasses(sourceFile);
+  addModuleImport(sourceFile);
 }
 
 function main(fileNames: string[]) {
@@ -15,8 +20,9 @@ function main(fileNames: string[]) {
 
   const sourceFiles = project.getSourceFiles();
   for (const sourceFile of sourceFiles) {
+    const stylesheet = extractStyles(sourceFile);
     transformSource(sourceFile);
-    // saveOutput(sourceFile);
+    saveOutput(sourceFile, stylesheet);
   }
 }
 
