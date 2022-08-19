@@ -5,6 +5,7 @@ import removeImports from "./transformations/removeImports";
 import removeStyles from "./transformations/removeStyles";
 import replaceClasses from "./transformations/replaceClasses";
 import { saveOutput } from "./utils/io";
+import { program } from "commander";
 
 function transformSource(sourceFile: SourceFile) {
   removeImports(sourceFile);
@@ -26,5 +27,5 @@ function main(fileNames: string[]) {
   }
 }
 
-main(["input/AdminDialog.tsx"]);
-// main(["input/SponsorCreationForm.tsx"]);
+program.parse();
+main(program.args);

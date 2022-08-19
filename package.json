@@ -26,6 +26,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "commander": "^9.4.0",
     "ts-morph": "^15.1.0"
   }
 }
